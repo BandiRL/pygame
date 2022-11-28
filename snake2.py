@@ -23,14 +23,14 @@ snake_block = 10
 snake_speed = 15
 red_speed = 40
  
-## 이미지
+
 sound_image = pygame.image.load('pygame/sound_on.png')
 sound_image = pygame.transform.scale(sound_image, [100, 100])
 sound_rect = pygame.Rect(sound_image.get_rect())
 sound_rect.left = (dis_width - 60)/2 
 sound_rect.top = 10
 
-## 사운드
+
 sound = pygame.mixer.Sound( "pygame/gameover.wav" )
 
 
